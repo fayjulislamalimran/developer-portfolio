@@ -7,17 +7,18 @@ h1 {
     font-size: 50px;
 }
 
-span {
+.orange-color {
     color: orange;
 }
 
-section {
+.banner {
     display: flex;
 }
 
 .half-with {
-    width: 50%;
-    padding-left: 5%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .half-with img {
@@ -48,18 +49,37 @@ button {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-top: 50px;
+
 
 }
 
-.experiences-one {
-    width: 50%;
+.experiences-itm {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
 
-    height: 250px;
-    padding: 10px 10px;
+
 }
 
-.experiences-two {
-    width: 50%;
+#baby-dev {
+    border-left: 5px solid tomato;
 
-    height: 250px;
+}
+
+#full-dev {
+    border-left: 5px solid rgb(181, 71, 255);
+}
+
+.banner {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 70px;
+
 }
